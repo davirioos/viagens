@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cabecalho {
+  padding: 20px;
+  background: #2790b0;
+  height: 100px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.conteiner-planos {
+  padding: 20px;
+  text-align: center;
+}
+
+.plano {
+  width: 250px;
+  height: 300px;
+  padding: 0px;
+  display: inline-block;
+  margin: 20px 20px 10px 20px;
+  border: 2px solid #2790b0;
+  border-radius: 10px;
+}
+
+.plano img {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 40%;
+}
+
+.plano h3 {
+  color: #2790b0;
+  margin-top: 20px;
+}
+
+.plano a {
+  background: #2790b0;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #2b4e72;
+  transition: 1.0s;
+}
+
+.plano a:hover {
+  background: #fff;
+  color: #2790b0;
+  transition: 1.0s;
+}
